@@ -1,2 +1,2 @@
 # Classy-Coffee-Company
-A React + Bootstrap project 
+A Bootstrap project 
