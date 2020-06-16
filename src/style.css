@@ -1,0 +1,94 @@
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+/* -------- HEADER -------- */
+header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  margin-right: 7.25%;
+}
+
+/* ------- HOME ------- */
+.home {
+  height: 100vh;
+  width: auto;
+  background: url("https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1256&q=80");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.home-text {
+  position: absolute;
+  font-size: large;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+/* ------- CONTACT ------- */
+.contact {
+  height: 100vh;
+  width: auto;
+  background-color: blue;
+}
+
+/* ------- ABOUT ------- */
+.about {
+  height: 100vh;
+  width: auto;
+  background-color: purple;
+}
+
+@media screen and (max-width: 500px) {
+  header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
