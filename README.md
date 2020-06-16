@@ -1,2 +1,2 @@
 # Classy-Coffee-Company
-A Bootstrap project 
+A one-page responsive website 

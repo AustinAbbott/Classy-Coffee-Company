@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/AustinAbbott/Classy-Coffee-Company/issues"
   },
-  "homepage": "https://github.com/AustinAbbott/Classy-Coffee-Company#readme"
+  "homepage": "https://github.com/AustinAbbott/Classy-Coffee-Company#readme",
+  "dependencies": {
+    "websocket-extensions": "^0.1.4"
+  }
 }
