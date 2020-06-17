@@ -28,15 +28,14 @@ header a {
 }
 
 header a:hover {
-    background-color: gray;
-    color: white;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 25px;
-    border-radius: 4px;
-  }
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 4px;
+}
 
 header a.logo {
   font-size: 25px;
@@ -78,7 +77,7 @@ header a.active {
 
 .home-text {
   position: absolute;
-  font-size: large;
+  font-size: 2.5vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -92,7 +91,7 @@ header a.active {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.1em; /* Adjust as needed */
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
@@ -116,18 +115,46 @@ header a.active {
   }
 }
 
-/* ------- CONTACT ------- */
-.contact {
+/* ------- FIND-US ------- */
+.find-us {
   height: 100vh;
   width: auto;
-  background-color: blue;
+  background-color: black;
+}
+
+.find-us img {
+    background-color: transparent;
+    width: 75%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-radius: 2%;
+}
+
+.find-us p {
+    position: relative;
+    color: white;
 }
 
 /* ------- ABOUT ------- */
 .about {
   height: 100vh;
   width: auto;
-  background-color: purple;
+  background-color: #ae6341;
+  text-align: center;
+  padding: 5%;
+}
+
+.about h3 {
+    margin: 0; 
+    color: white;
+    font-size: 4vw;
+    padding-top: 15%;
+    padding-bottom: 5%;
 }
 
 /* ------- FOOTER ------- */
@@ -147,12 +174,41 @@ footer p {
   color: white;
 }
 
+.img-div {
+    background-color: transparent;
+    width: 95%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.img-div img {
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+}
+
 @media screen and (max-width: 650px) {
   header a {
     float: none;
     display: block;
     text-align: left;
   }
+
+  header a:hover {
+    background-color: gray;
+    color: white;
+    text-align: left;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
   .header-right {
     float: none;
     width: 80%;
